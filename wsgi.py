@@ -1,0 +1,1 @@
+from sagedeploy.app import create_app

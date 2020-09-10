@@ -1,0 +1,4 @@
+optml/
+venv/
+**/*.egg-info
+ecr_push.sh
