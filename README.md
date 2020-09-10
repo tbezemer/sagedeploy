@@ -75,3 +75,6 @@ print(result)
 - When the data changes, make a new Training Job to create a new model.
 - When the Model changes, make a new Endpoint Configuration.
 - Apply the new Endpoint Configuration to the Endpoint.
+
+# Notes
+- Test directory structure with `titanic.csv` data file is included for testing purposes. 
