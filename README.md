@@ -8,12 +8,12 @@
 - Execute the push commands from 'View Push Commands'.
 
 ## Create a Sagemaker Algorithm Resource
-- Upload your dataset to S3
+- Upload your dataset to S3 (directory doesn't matter, you specify the folder pointing to the data later)
 - In Sagemaker, in the left side bar, find the "Algorithms" button.
 - On the right, click the 'Create Algorithm' button.
 - Find your instance URI (in ECR) and copy paste it into Training Image box.
 - Select the appropriate instance type.
-- Make sure to change the name of the 'train' channel to 'training' as this corresponds to the path we chose to find out data (`/opt/ml/input/training...`)./
+- Make sure to change the name of the 'train' channel to 'training' as this corresponds to the path we chose to find our data (`/opt/ml/input/training...`)./
 - Skip specifying Hyperparameters screen (Next)
 - For container inference, also use the URI of the image (the inference image is used to make predictions - we will use the same image for this purpose).
 - In the next screen, select the instance type twice
